@@ -38,6 +38,7 @@ pip install -r requirements.txt
 ```
 
 3. **Set up configuration**:
+   this command copies the config.example.json into a config.json file
 
 ```bash
 cp config.example.json config.json
