@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 # Project specific
-config.json
 *.csv
 *.json
 !config.example.json
