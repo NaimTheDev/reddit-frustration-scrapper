@@ -1,0 +1,39 @@
+{
+  "reddit_api": {
+    "client_id": "CLIENT_ID",
+    "client_secret": "CLIENT_SECRET",
+    "user_agent": "can be anything!"
+  },
+  "scraping": {
+    "subreddits": [
+      "mildlyinfuriating",
+      "frustrating",
+      "rage",
+      "mildlyfrustrating"
+    ],
+    "keywords": [
+      "frustrat",
+      "annoying",
+      "irritat",
+      "anger",
+      "rage",
+      "upset",
+      "mad",
+      "infuriat"
+    ],
+    "post_limit": 100,
+    "time_filter": "week"
+  },
+  "output": {
+    "format": "json",
+    "filename": "frustration_posts.json",
+    "include_comments": false,
+    "max_comments": 10
+  },
+  "filters": {
+    "min_score": 1,
+    "min_comments": 0,
+    "exclude_nsfw": true,
+    "exclude_deleted": true
+  }
+}
